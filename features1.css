@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #section1{
+    background-image: url(image1.jpg);
+    transition: all 0.5s;
+    box-shadow: 4px 2px gray;
+  }
+  #section1:hover{
+    transform: scale(1.05);
+  }
+  #section2{
+    background-image:url(image2.jpg);
+    background-size: contain;
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 2px 4px gray;
+  }
+  #section2:hover{
+    transform:scale(1.05);
+  }
+  #section3{
+    background-image:url(image3.png);
+    background-size: contain;
+    color: white;
+    transition: all 0.5s;
+    box-shadow: 2px 4px gray;
+  }
+  #section3:hover{
+    transform: scale(1.05);
+  }
+  
+  header {
+    background-color: #333;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: #333;
+  }
+  
+  .service h2 {
+    color: #333;
+  }
+  
+  /* .service p {
+  /*   color: #666; */
+  

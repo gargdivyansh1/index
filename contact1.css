@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    /* background-color: #333; */
+    background-image: url(header.jpg);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service {
+    background-color: rgb(243, 241, 237);
+    margin: 20px;
+    padding: 20px;
+    border: 3.5px solid #3d3a3a;
+    box-shadow: 10px;
+    border-radius: 10px;
+  }
+  
+  .service h2 {
+    color: #333;
+  }
+  
+  /* .service p {
+    color: #666;
+  } */
+  #button1{margin-left: 131px;
+background-color: rgb(201, 193, 208);
+color: white;
+border: 0;
+}
+  #button2{margin-left: 98px;
+    background-color: rgb(201, 193, 208);
+    color: white;
+    border: 0;}
+  #button3{margin-left: 142px;
+    background-color: rgb(201, 193, 208);
+    color: white;
+    border: 0;}
